@@ -1,0 +1,25 @@
+{
+  "environment": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "python": "3.10.20",
+    "torch": "2.4.1+cu121",
+    "cuda": "12.1",
+    "mamba_ssm": "2.2.6.post3",
+    "causal_conv1d": "1.5.4"
+  },
+  "results": [
+    {
+      "dataset": "SelfRegulationSCP1",
+      "num_params": 310274,
+      "param_mem_mb": 1.184,
+      "runtime_s_1000": 7.776,
+      "steps_per_s": 128.608,
+      "peak_alloc_mb": 175.005,
+      "peak_reserved_mb": 200.0,
+      "avg_alloc_mb": 21.547,
+      "avg_reserved_mb": 199.904,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "model_name": "sig_mamba",
+  "dataset_name": "physionet_no_oi",
+  "seed": 4567,
+  "lr": 0.0005,
+  "batch_size": 32,
+  "num_steps": 50000,
+  "print_steps": 500,
+  "early_stopping_steps": 10,
+  "include_time": false,
+  "metric": "auc",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": true,
+  "n_samples": 28233,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 32,
+    "state_dim": 16,
+    "num_blocks": 4,
+    "conv_dim": 4,
+    "expansion": 2
+  },
+  "signature_config": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [
+      4,
+      6,
+      22
+    ],
+    "depths": [
+      2,
+      2,
+      2
+    ],
+    "stride": 1,
+    "normalize": true
+  },
+  "catch24_config": {},
+  "wst_config": {}
+}

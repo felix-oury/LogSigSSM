@@ -1,0 +1,38 @@
+{
+  "model_name": "sig_transformers",
+  "dataset_name": "SelfRegulationSCP2",
+  "seed": 2345,
+  "lr": 0.001,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": false,
+  "n_samples": 380,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 128,
+    "state_dim": 64,
+    "num_blocks": 2,
+    "n_heads": 8,
+    "ffn_dim": 512
+  },
+  "signature_config": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [
+      68
+    ],
+    "depths": [
+      2
+    ],
+    "stride": 76,
+    "normalize": true
+  },
+  "catch24_config": {},
+  "wst_config": {}
+}

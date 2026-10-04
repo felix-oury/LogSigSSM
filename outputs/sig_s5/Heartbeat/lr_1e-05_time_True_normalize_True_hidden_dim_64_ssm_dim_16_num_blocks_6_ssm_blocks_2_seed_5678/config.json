@@ -1,0 +1,39 @@
+{
+  "model_name": "sig_s5",
+  "dataset_name": "Heartbeat",
+  "seed": 5678,
+  "lr": 1e-05,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "T": 1,
+  "include_time": true,
+  "stepsize": 1,
+  "logsig_depth": 1,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 64,
+    "ssm_dim": 16,
+    "num_blocks": 6,
+    "ssm_blocks": 2
+  },
+  "signature_config": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [
+      14
+    ],
+    "depths": [
+      1
+    ],
+    "stride": 3,
+    "normalize": true
+  },
+  "catch24_config": {},
+  "wst_config": {},
+  "lr_scheduler": "<lambda>"
+}

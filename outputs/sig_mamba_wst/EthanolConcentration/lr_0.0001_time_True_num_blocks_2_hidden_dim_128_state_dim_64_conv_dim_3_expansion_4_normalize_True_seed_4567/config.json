@@ -1,0 +1,35 @@
+{
+  "model_name": "sig_mamba_wst",
+  "dataset_name": "EthanolConcentration",
+  "seed": 4567,
+  "lr": 0.0001,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": false,
+  "n_samples": 524,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 128,
+    "state_dim": 64,
+    "num_blocks": 2,
+    "conv_dim": 3,
+    "expansion": 4
+  },
+  "signature_config": {},
+  "catch24_config": {},
+  "wst_config": {
+    "lengths": [
+      18,
+      291,
+      62,
+      48
+    ],
+    "stride": 66
+  }
+}

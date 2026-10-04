@@ -1,0 +1,43 @@
+{
+  "seeds": [
+    2345,
+    3456,
+    4567,
+    5678,
+    6789
+  ],
+  "data_dir": "data_dir",
+  "output_parent_dir": "",
+  "lr_scheduler": "lambda lr: lr",
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "metric": "accuracy",
+  "classification": true,
+  "use_presplit": false,
+  "T": 1,
+  "dt0": null,
+  "scale": 1,
+  "normalize": true,
+  "model_name": "sig_transformers",
+  "dataset_name": "SelfRegulationSCP2",
+  "epochs": 100,
+  "time": "True",
+  "lr": "0.001",
+  "num_blocks": "2",
+  "hidden_dim": "128",
+  "n_heads": "8",
+  "ffn_dim": "512",
+  "signature": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [
+      68
+    ],
+    "depths": [
+      2
+    ],
+    "stride": 76,
+    "normalize": true
+  }
+}

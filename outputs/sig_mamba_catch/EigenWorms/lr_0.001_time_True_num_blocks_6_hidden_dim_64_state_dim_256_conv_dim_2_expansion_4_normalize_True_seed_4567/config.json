@@ -1,0 +1,43 @@
+{
+  "model_name": "sig_mamba_catch",
+  "dataset_name": "EigenWorms",
+  "seed": 4567,
+  "lr": 0.001,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": false,
+  "n_samples": 236,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 64,
+    "state_dim": 256,
+    "num_blocks": 6,
+    "conv_dim": 2,
+    "expansion": 4
+  },
+  "signature_config": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [],
+    "depths": [],
+    "stride": 1,
+    "normalize": true
+  },
+  "catch24_config": {
+    "lengths": [
+      70,
+      749,
+      499,
+      70,
+      35
+    ],
+    "stride": 135
+  },
+  "wst_config": {}
+}

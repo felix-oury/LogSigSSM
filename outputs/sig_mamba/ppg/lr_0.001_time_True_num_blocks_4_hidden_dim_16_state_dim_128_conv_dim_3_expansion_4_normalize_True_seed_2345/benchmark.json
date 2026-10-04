@@ -1,0 +1,19 @@
+{
+  "model": "sig_mamba",
+  "dataset": "ppg",
+  "num_params": 120214,
+  "param_mem_mb": 0.459,
+  "signature_runtime_s": 175.342,
+  "main_loop_runtime_s": 53.8,
+  "runtime_1000_s": 4.483,
+  "steps_total": 12000,
+  "steps_per_s": 223.05,
+  "post_warmup_alloc_mb": 38.148,
+  "post_warmup_reserved_mb": 114.0,
+  "avg_alloc_mb": 38.152,
+  "avg_reserved_mb": 116.334,
+  "peak_alloc_mb": 140.257,
+  "peak_reserved_mb": 164.0,
+  "gpu_util_mean": null,
+  "gpu_util_max": null
+}

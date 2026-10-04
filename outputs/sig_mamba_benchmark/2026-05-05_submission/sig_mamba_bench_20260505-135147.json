@@ -1,0 +1,82 @@
+{
+  "results": [
+    {
+      "dataset": "SelfRegulationSCP1",
+      "num_params": 310274,
+      "param_mem_mb": 1.184,
+      "runtime_s_1000": 3.158,
+      "steps_per_s": 316.608,
+      "peak_alloc_mb": 175.005,
+      "peak_reserved_mb": 202.0,
+      "avg_alloc_mb": 21.547,
+      "avg_reserved_mb": 201.88,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "SelfRegulationSCP2",
+      "num_params": 352642,
+      "param_mem_mb": 1.345,
+      "runtime_s_1000": 1.794,
+      "steps_per_s": 557.518,
+      "peak_alloc_mb": 52.299,
+      "peak_reserved_mb": 76.0,
+      "avg_alloc_mb": 21.716,
+      "avg_reserved_mb": 76.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "EthanolConcentration",
+      "num_params": 158468,
+      "param_mem_mb": 0.605,
+      "runtime_s_1000": 4.022,
+      "steps_per_s": 248.64,
+      "peak_alloc_mb": 58.982,
+      "peak_reserved_mb": 62.0,
+      "avg_alloc_mb": 18.777,
+      "avg_reserved_mb": 62.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "Heartbeat",
+      "num_params": 162306,
+      "param_mem_mb": 0.619,
+      "runtime_s_1000": 1.925,
+      "steps_per_s": 519.548,
+      "peak_alloc_mb": 90.06,
+      "peak_reserved_mb": 110.0,
+      "avg_alloc_mb": 19.728,
+      "avg_reserved_mb": 110.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "MotorImagery",
+      "num_params": 6546,
+      "param_mem_mb": 0.025,
+      "runtime_s_1000": 1.869,
+      "steps_per_s": 535.007,
+      "peak_alloc_mb": 21.791,
+      "peak_reserved_mb": 46.0,
+      "avg_alloc_mb": 17.461,
+      "avg_reserved_mb": 46.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "EigenWorms",
+      "num_params": 52933,
+      "param_mem_mb": 0.202,
+      "runtime_s_1000": 3.61,
+      "steps_per_s": 277.026,
+      "peak_alloc_mb": 261.768,
+      "peak_reserved_mb": 362.0,
+      "avg_alloc_mb": 19.479,
+      "avg_reserved_mb": 362.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    }
+  ]
+}

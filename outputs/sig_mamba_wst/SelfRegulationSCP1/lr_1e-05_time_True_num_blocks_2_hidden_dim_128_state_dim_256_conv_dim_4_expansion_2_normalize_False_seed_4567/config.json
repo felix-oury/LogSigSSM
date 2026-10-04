@@ -1,0 +1,33 @@
+{
+  "model_name": "sig_mamba_wst",
+  "dataset_name": "SelfRegulationSCP1",
+  "seed": 4567,
+  "lr": 1e-05,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": false,
+  "n_samples": 561,
+  "normalize": false,
+  "model_args": {
+    "hidden_dim": 128,
+    "state_dim": 256,
+    "num_blocks": 2,
+    "conv_dim": 4,
+    "expansion": 2
+  },
+  "signature_config": {},
+  "catch24_config": {},
+  "wst_config": {
+    "lengths": [
+      179,
+      28
+    ],
+    "stride": 122
+  }
+}

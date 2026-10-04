@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "LogSig-SSM"
+repository-code: "https://github.com/felix-oury/LogSigSSM"
+license: MIT
+authors:
+  - family-names: Oury
+    given-names: Felix
+    affiliation: Imperial College London
+  - family-names: Calvo Peiro
+    given-names: Nicolas
+    affiliation: Imperial College London
+  - family-names: Tanaka
+    given-names: Reiko J.
+    affiliation: Imperial College London
+preferred-citation:
+  type: conference-paper
+  title: "LogSig-SSM: Time-Series Modelling with Multi-Scale Log-Signature Compression for State-Space Models"
+  authors:
+    - family-names: Oury
+      given-names: Felix
+      affiliation: Imperial College London
+    - family-names: Calvo Peiro
+      given-names: Nicolas
+      affiliation: Imperial College London
+    - family-names: Tanaka
+      given-names: Reiko J.
+      affiliation: Imperial College London
+  collection-title: "Advances in Neural Information Processing Systems"
+  conference:
+    name: "40th Conference on Neural Information Processing Systems (NeurIPS 2026)"
+  year: 2026

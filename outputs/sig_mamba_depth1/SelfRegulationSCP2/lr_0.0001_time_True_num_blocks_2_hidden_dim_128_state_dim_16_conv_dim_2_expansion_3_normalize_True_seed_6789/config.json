@@ -1,0 +1,38 @@
+{
+  "model_name": "sig_mamba",
+  "dataset_name": "SelfRegulationSCP2",
+  "seed": 6789,
+  "lr": 0.0001,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": false,
+  "n_samples": 380,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 128,
+    "state_dim": 16,
+    "num_blocks": 2,
+    "conv_dim": 2,
+    "expansion": 3
+  },
+  "signature_config": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [
+      48
+    ],
+    "depths": [
+      1
+    ],
+    "stride": 45,
+    "normalize": true
+  },
+  "catch24_config": {},
+  "wst_config": {}
+}

@@ -1,0 +1,94 @@
+{
+  "environment": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "cpu": "Intel(R) Core(TM) i9-14900KF",
+    "cpu_affinity": [
+      2
+    ],
+    "python": "3.10.20",
+    "torch": "2.4.1+cu121",
+    "cuda": "12.1",
+    "mamba_ssm": "2.2.6.post3",
+    "causal_conv1d": "1.5.4"
+  },
+  "results": [
+    {
+      "dataset": "SelfRegulationSCP1",
+      "num_params": 310786,
+      "param_mem_mb": 1.186,
+      "runtime_s_1000": 3.167,
+      "steps_per_s": 315.793,
+      "peak_alloc_mb": 175.011,
+      "peak_reserved_mb": 202.0,
+      "avg_alloc_mb": 21.555,
+      "avg_reserved_mb": 201.88,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "SelfRegulationSCP2",
+      "num_params": 352642,
+      "param_mem_mb": 1.345,
+      "runtime_s_1000": 1.788,
+      "steps_per_s": 559.188,
+      "peak_alloc_mb": 52.299,
+      "peak_reserved_mb": 76.0,
+      "avg_alloc_mb": 21.716,
+      "avg_reserved_mb": 76.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "EthanolConcentration",
+      "num_params": 158516,
+      "param_mem_mb": 0.605,
+      "runtime_s_1000": 3.811,
+      "steps_per_s": 262.376,
+      "peak_alloc_mb": 60.059,
+      "peak_reserved_mb": 82.0,
+      "avg_alloc_mb": 18.787,
+      "avg_reserved_mb": 82.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "Heartbeat",
+      "num_params": 396546,
+      "param_mem_mb": 1.513,
+      "runtime_s_1000": 2.159,
+      "steps_per_s": 463.16,
+      "peak_alloc_mb": 37.454,
+      "peak_reserved_mb": 54.0,
+      "avg_alloc_mb": 25.972,
+      "avg_reserved_mb": 54.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "MotorImagery",
+      "num_params": 70034,
+      "param_mem_mb": 0.267,
+      "runtime_s_1000": 5.239,
+      "steps_per_s": 190.878,
+      "peak_alloc_mb": 52.438,
+      "peak_reserved_mb": 78.0,
+      "avg_alloc_mb": 45.287,
+      "avg_reserved_mb": 78.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "EigenWorms",
+      "num_params": 52933,
+      "param_mem_mb": 0.202,
+      "runtime_s_1000": 3.594,
+      "steps_per_s": 278.256,
+      "peak_alloc_mb": 261.768,
+      "peak_reserved_mb": 362.0,
+      "avg_alloc_mb": 19.479,
+      "avg_reserved_mb": 362.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    }
+  ]
+}

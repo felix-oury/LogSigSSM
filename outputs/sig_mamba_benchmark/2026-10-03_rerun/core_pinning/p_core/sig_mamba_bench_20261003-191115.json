@@ -1,0 +1,51 @@
+{
+  "environment": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "python": "3.10.20",
+    "torch": "2.4.1+cu121",
+    "cuda": "12.1",
+    "mamba_ssm": "2.2.6.post3",
+    "causal_conv1d": "1.5.4"
+  },
+  "results": [
+    {
+      "dataset": "EigenWorms",
+      "num_params": 52933,
+      "param_mem_mb": 0.202,
+      "runtime_s_1000": 3.605,
+      "steps_per_s": 277.416,
+      "peak_alloc_mb": 261.577,
+      "peak_reserved_mb": 368.0,
+      "avg_alloc_mb": 19.621,
+      "avg_reserved_mb": 368.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "SelfRegulationSCP1",
+      "num_params": 310786,
+      "param_mem_mb": 1.186,
+      "runtime_s_1000": 3.159,
+      "steps_per_s": 316.541,
+      "peak_alloc_mb": 175.347,
+      "peak_reserved_mb": 202.0,
+      "avg_alloc_mb": 21.555,
+      "avg_reserved_mb": 201.88,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    },
+    {
+      "dataset": "SelfRegulationSCP2",
+      "num_params": 352642,
+      "param_mem_mb": 1.345,
+      "runtime_s_1000": 1.79,
+      "steps_per_s": 558.725,
+      "peak_alloc_mb": 52.299,
+      "peak_reserved_mb": 76.0,
+      "avg_alloc_mb": 21.716,
+      "avg_reserved_mb": 76.0,
+      "gpu_util_mean": null,
+      "gpu_util_max": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "model_name": "sig_transformers",
+  "dataset_name": "EthanolConcentration",
+  "seed": 6789,
+  "lr": 0.001,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": false,
+  "n_samples": 524,
+  "normalize": false,
+  "model_args": {
+    "hidden_dim": 16,
+    "state_dim": 64,
+    "num_blocks": 6,
+    "n_heads": 8,
+    "ffn_dim": 128
+  },
+  "signature_config": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [
+      22,
+      48,
+      114
+    ],
+    "depths": [
+      1,
+      1,
+      1
+    ],
+    "stride": 74,
+    "normalize": false
+  },
+  "catch24_config": {},
+  "wst_config": {}
+}

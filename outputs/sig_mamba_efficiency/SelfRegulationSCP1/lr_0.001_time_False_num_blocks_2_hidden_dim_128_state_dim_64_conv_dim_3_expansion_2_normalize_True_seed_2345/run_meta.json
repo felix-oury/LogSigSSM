@@ -1,0 +1,10 @@
+{
+  "n_params": 310786,
+  "input_dim": 27,
+  "output_dim": 2,
+  "token_dim_total": 27,
+  "n_tokens_train": 180,
+  "n_tokens_val": 180,
+  "n_tokens_test": 180,
+  "logsig_precompute_s": 0.9893689155578613
+}

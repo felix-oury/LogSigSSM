@@ -1,0 +1,33 @@
+{
+  "model_name": "sig_mamba_wst",
+  "dataset_name": "EigenWorms",
+  "seed": 3456,
+  "lr": 0.001,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": false,
+  "n_samples": 236,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 128,
+    "state_dim": 64,
+    "num_blocks": 6,
+    "conv_dim": 2,
+    "expansion": 1
+  },
+  "signature_config": {},
+  "catch24_config": {},
+  "wst_config": {
+    "lengths": [
+      749,
+      2997
+    ],
+    "stride": 48
+  }
+}

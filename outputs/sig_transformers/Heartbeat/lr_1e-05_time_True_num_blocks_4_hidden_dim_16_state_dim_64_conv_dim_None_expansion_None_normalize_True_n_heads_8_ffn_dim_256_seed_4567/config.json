@@ -1,0 +1,40 @@
+{
+  "model_name": "sig_transformers",
+  "dataset_name": "Heartbeat",
+  "seed": 4567,
+  "lr": 1e-05,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": false,
+  "n_samples": 409,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 16,
+    "state_dim": 64,
+    "num_blocks": 4,
+    "n_heads": 8,
+    "ffn_dim": 256
+  },
+  "signature_config": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [
+      16,
+      25
+    ],
+    "depths": [
+      1,
+      1
+    ],
+    "stride": 14,
+    "normalize": true
+  },
+  "catch24_config": {},
+  "wst_config": {}
+}

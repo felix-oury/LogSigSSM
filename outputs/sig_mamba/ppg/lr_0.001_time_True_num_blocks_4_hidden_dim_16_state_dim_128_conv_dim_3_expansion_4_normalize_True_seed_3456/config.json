@@ -1,0 +1,42 @@
+{
+  "model_name": "sig_mamba",
+  "dataset_name": "ppg",
+  "seed": 3456,
+  "lr": 0.001,
+  "batch_size": 4,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "mse",
+  "classification": false,
+  "output_step": 128,
+  "use_presplit": true,
+  "n_samples": 1232,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 16,
+    "state_dim": 128,
+    "num_blocks": 4,
+    "conv_dim": 3,
+    "expansion": 4
+  },
+  "signature_config": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [
+      64,
+      8,
+      8
+    ],
+    "depths": [
+      2,
+      2,
+      1
+    ],
+    "stride": 64,
+    "normalize": true
+  },
+  "catch24_config": {},
+  "wst_config": {}
+}

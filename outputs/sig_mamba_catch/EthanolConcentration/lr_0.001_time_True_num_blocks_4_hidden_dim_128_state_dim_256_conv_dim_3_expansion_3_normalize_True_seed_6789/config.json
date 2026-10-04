@@ -1,0 +1,43 @@
+{
+  "model_name": "sig_mamba_catch",
+  "dataset_name": "EthanolConcentration",
+  "seed": 6789,
+  "lr": 0.001,
+  "batch_size": 32,
+  "num_steps": 100000,
+  "print_steps": 1000,
+  "early_stopping_steps": 10,
+  "include_time": true,
+  "metric": "accuracy",
+  "classification": true,
+  "output_step": 1,
+  "use_presplit": false,
+  "n_samples": 524,
+  "normalize": true,
+  "model_args": {
+    "hidden_dim": 128,
+    "state_dim": 256,
+    "num_blocks": 4,
+    "conv_dim": 3,
+    "expansion": 3
+  },
+  "signature_config": {
+    "include_global": false,
+    "d_global": 0,
+    "lengths": [],
+    "depths": [],
+    "stride": 1,
+    "normalize": true
+  },
+  "catch24_config": {
+    "lengths": [
+      109,
+      350,
+      13,
+      109,
+      350
+    ],
+    "stride": 79
+  },
+  "wst_config": {}
+}

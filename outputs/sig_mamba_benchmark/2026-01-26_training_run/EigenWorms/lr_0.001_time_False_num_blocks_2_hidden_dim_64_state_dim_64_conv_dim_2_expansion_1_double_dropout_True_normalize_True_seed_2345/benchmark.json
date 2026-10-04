@@ -1,0 +1,19 @@
+{
+  "model": "sig_mamba",
+  "dataset": "EigenWorms",
+  "num_params": 52933,
+  "param_mem_mb": 0.202,
+  "signature_runtime_s": 19.865,
+  "main_loop_runtime_s": 54.435,
+  "runtime_1000_s": 2.722,
+  "steps_total": 20000,
+  "steps_per_s": 367.411,
+  "post_warmup_alloc_mb": 20.274,
+  "post_warmup_reserved_mb": 354.0,
+  "avg_alloc_mb": 19.965,
+  "avg_reserved_mb": 364.415,
+  "peak_alloc_mb": 461.654,
+  "peak_reserved_mb": 640.0,
+  "gpu_util_mean": 0.0,
+  "gpu_util_max": 0
+}
